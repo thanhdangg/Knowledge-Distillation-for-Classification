@@ -1,1 +1,2 @@
-# Knowledge-Distillation-for-Classification
+# Knowledge Distillation for Classification
+Knowledge distillation is a technique used to transfer knowledge from a larger, more complex model (teacher) to a smaller, simpler model (student). To distill knowledge from one model to another, we take a pre-trained teacher model trained on a certain task (image classification for this case) and randomly initialize a student model to be trained on image classification. Next, we train the student model to minimize the difference between it’s outputs and the teacher’s outputs, thus making it mimic the behavior
